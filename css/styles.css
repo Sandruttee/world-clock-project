@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+}
+
+.footer-space {
+  margin-top: 100px;
+}
+
+.icon-instagram {
+  font-size: 30px;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+.icon-facebook {
+  font-size: 30px;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+.icon-linkedin {
+  font-size: 30px;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+.icons {
+  margin-top: 10px;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+.icon-instagram:hover {
+  color: #6c757d;
+  transform: scale(1.1);
+}
+.icon-facebook:hover {
+  color: #6c757d;
+  transform: scale(1.1);
+}
+.icon-linkedin:hover {
+  color: #6c757d;
+  transform: scale(1.1);
+}
+
+.github-link {
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+.github-press {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.github-press:hover {
+  color: #6c757d;
+  transform: scale(1.1);
+}
