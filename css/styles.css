@@ -1,9 +1,47 @@
-h1 {
-  text-align: center;
+body {
+  background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 
+.main {
+  margin-top: 100px;
+}
+select {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 40px;
+}
+h2 {
+  text-align: left;
+  vertical-align: middle;
+
+  padding-left: 20px;
+  font-size: 30px;
+}
 footer {
   text-align: center;
+  margin-top: 50px;
+  font-size: 10px;
+}
+.date {
+  text-align: right;
+  letter-spacing: 7px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.time {
+  text-align: right;
+  font-size: 40px;
+  padding-right: 20px;
 }
 
 .footer-space {
@@ -55,4 +93,23 @@ footer {
 .github-press:hover {
   color: #6c757d;
   transform: scale(1.1);
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.1px);
+  -webkit-backdrop-filter: blur(7.1px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+.city {
+  display: grid;
+  grid-template-columns: 275px 275px;
+  grid-gap: 50px;
 }
