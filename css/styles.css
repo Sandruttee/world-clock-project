@@ -13,17 +13,20 @@ select {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.14);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  font-family: "Indie Flower", cursive;
 }
 h1 {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
   font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
 }
 h2 {
   text-align: left;
   vertical-align: middle;
-
+  font-family: "Montserrat", sans-serif;
   padding-left: 20px;
   font-size: 30px;
 }
@@ -31,17 +34,20 @@ footer {
   text-align: center;
   margin-top: 50px;
   font-size: 10px;
+  font-family: "Indie Flower", cursive;
 }
 .date {
   text-align: right;
   letter-spacing: 7px;
   padding-top: 20px;
   padding-right: 20px;
+  font-family: "Indie Flower", cursive;
 }
 .time {
   text-align: right;
   font-size: 40px;
   padding-right: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .footer-space {
