@@ -52,7 +52,8 @@ function updateCity(event) {
           )}<small>${cityTime.format(" A")}</small></div>
         </div>
       </div>
-    </div>`;
+    </div>
+    <a href="/">Go back to all cities</a>`;
 }
 
 let citySelect = document.querySelector("#city-select");
