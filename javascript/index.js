@@ -33,3 +33,24 @@ setInterval(function () {
     "h:mm:ss"
   )} <small>${buenosAiresTimeFormat.format("A")}</small>`;
 }, 1000);
+
+function updateCity(event) {
+  let cityTimeZone = event.target.value;
+  let cityName = cityTimeZone.replace("_", " ").split("/")[1];
+  let cityTime = moment().tz(cityTimeZone);
+  let allCities = document.querySelector("#all-cities");
+  allCities.innerHTML = `
+     <div class="container city">
+        <div><h2>${cityName}</h2></div>
+        <div>
+          <div class="date">${cityTime.format("MMMM Do, YYYY")}</div>
+          <div class="time">${cityTime.format(
+            "h:mm:ss"
+          )}<small>${cityTime.format("A")}</small></div>
+        </div>
+      </div>
+    </div>`;
+}
+
+let citySelect = document.querySelector("#city-select");
+citySelect.addEventListener("change", updateCity);
